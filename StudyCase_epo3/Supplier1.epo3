@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="ASCII"?>
+<com.example.epo3:Supplier xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.example.epo3="http:///com/example/ExtendedPurchaseOrder.ecore" name="Supplier1">
+  <customers customerID="6" orders="//@orders.0 //@orders.1 //@orders.2 //@orders.3 //@orders.4">
+    <address xsi:type="com.example.epo3:USAddress" name="Address6" country="United States" street="Street5" state="Virginia" zip="-90"/>
+  </customers>
+  <customers customerID="7" orders="//@orders.5 //@orders.6 //@orders.7 //@orders.8 //@orders.9">
+    <address xsi:type="com.example.epo3:USAddress" name="Address7" country="United States" street="Street6" state="North Carolina" zip="117"/>
+  </customers>
+  <customers customerID="8" orders="//@orders.10 //@orders.11 //@orders.12 //@orders.13 //@orders.14">
+    <address xsi:type="com.example.epo3:USAddress" name="Address8" country="United States" street="Street7" state="Michigan" zip="68"/>
+  </customers>
+  <customers customerID="9" orders="//@orders.15 //@orders.16 //@orders.17 //@orders.18 //@orders.19">
+    <address xsi:type="com.example.epo3:USAddress" name="Address9" country="United States" street="Street8" state="Ohio" zip="-124"/>
+  </customers>
+  <customers customerID="10" orders="//@orders.20 //@orders.21 //@orders.22 //@orders.23 //@orders.24">
+    <address xsi:type="com.example.epo3:USAddress" name="Address10" country="United States" street="Street9" state="Idaho" zip="33"/>
+  </customers>
+  <orders comment="PurchaseOrder26" orderDate="2014-05-12T15:39:27.059+0200" status="BackOrder">
+    <items productName="Item126" quantity="14" USPrice="0.23565614" comment="Item126" shipDate="2014-05-12T15:39:27.059+0200" partNum="10"/>
+    <items productName="Item127" quantity="1" USPrice="0.73374987" comment="Item127" shipDate="2014-05-12T15:39:27.059+0200" partNum="4"/>
+    <items productName="Item128" quantity="1" USPrice="0.9954176" comment="Item128" shipDate="2014-05-12T15:39:27.059+0200" partNum="15"/>
+    <items productName="Item129" quantity="1" USPrice="0.7900528" comment="Item129" shipDate="2014-05-12T15:39:27.059+0200" partNum="6"/>
+    <items productName="Item130" quantity="3" USPrice="0.274302" comment="Item130" shipDate="2014-05-12T15:39:27.059+0200" partNum="13"/>
+    <billTo xsi:type="com.example.epo3:USAddress" name="Address_26" country="United States" street="Street5_25" state="Alaska" zip="-115"/>
+    <shipTo xsi:type="com.example.epo3:USAddress" name="Address6_26" country="United States" street="Street25" state="Louisiana" zip="-115"/>
+  </orders>
+  <orders comment="PurchaseOrder27" orderDate="2014-05-12T15:39:27.059+0200" status="Complete" previousOrder="//@orders.0">
+    <items productName="Item131" quantity="2" USPrice="0.700039" comment="Item131" shipDate="2014-05-12T15:39:27.059+0200" partNum="8"/>
+    <items productName="Item132" quantity="1" USPrice="0.85615987" comment="Item132" shipDate="2014-05-12T15:39:27.059+0200" partNum="0"/>
+    <items productName="Item133" quantity="3" USPrice="0.20454645" comment="Item133" shipDate="2014-05-12T15:39:27.059+0200" partNum="11"/>
+    <items productName="Item134" quantity="7" USPrice="0.1062088" comment="Item134" shipDate="2014-05-12T15:39:27.059+0200" partNum="5"/>
+    <items productName="Item135" quantity="1" USPrice="0.5655342" comment="Item135" shipDate="2014-05-12T15:39:27.059+0200" partNum="9"/>
+    <billTo xsi:type="com.example.epo3:USAddress" name="Address_27" country="United States" street="Street5_26" state="Iowa"/>
+    <shipTo xsi:type="com.example.epo3:USAddress" name="Address6_27" country="United States" street="Street26" state="Massachusetts"/>
+  </orders>
+  <orders comment="PurchaseOrder28" orderDate="2014-05-12T15:39:27.059+0200" previousOrder="//@orders.1">
+    <items productName="Item136" quantity="10" USPrice="0.95244056" comment="Item136" shipDate="2014-05-12T15:39:27.059+0200" partNum="0"/>
+    <items productName="Item137" quantity="4" USPrice="0.68031174" comment="Item137" shipDate="2014-05-12T15:39:27.059+0200" partNum="4"/>
+    <items productName="Item138" quantity="5" USPrice="0.9304246" comment="Item138" shipDate="2014-05-12T15:39:27.059+0200" partNum="2"/>
+    <items productName="Item139" quantity="6" USPrice="0.081418276" comment="Item139" shipDate="2014-05-12T15:39:27.059+0200" partNum="4"/>
+    <items productName="Item140" quantity="10" USPrice="0.3377568" comment="Item140" shipDate="2014-05-12T15:39:27.059+0200" partNum="9"/>
+    <billTo xsi:type="com.example.epo3:USAddress" name="Address_28" country="United States" street="Street5_27" state="District of Columbia" zip="-31"/>
+    <shipTo xsi:type="com.example.epo3:USAddress" name="Address6_28" country="United States" street="Street27" state="Alaska" zip="-31"/>
+  </orders>
+  <orders comment="PurchaseOrder29" orderDate="2014-05-12T15:39:27.059+0200" previousOrder="//@orders.2">
+    <items productName="Item141" quantity="7" USPrice="0.67963386" comment="Item141" shipDate="2014-05-12T15:39:27.059+0200" partNum="1"/>
+    <items productName="Item142" quantity="7" USPrice="0.7512845" comment="Item142" shipDate="2014-05-12T15:39:27.059+0200" partNum="16"/>
+    <items productName="Item143" quantity="5" USPrice="0.13893831" comment="Item143" shipDate="2014-05-12T15:39:27.059+0200" partNum="17"/>
+    <items productName="Item144" quantity="8" USPrice="0.4159677" comment="Item144" shipDate="2014-05-12T15:39:27.059+0200" partNum="4"/>
+    <items productName="Item145" quantity="1" USPrice="0.13654429" comment="Item145" shipDate="2014-05-12T15:39:27.059+0200" partNum="1"/>
+    <billTo xsi:type="com.example.epo3:USAddress" name="Address_29" country="United States" street="Street5_28" state="Florida" zip="-104"/>
+    <shipTo xsi:type="com.example.epo3:USAddress" name="Address6_29" country="United States" street="Street28" state="Connecticut" zip="-104"/>
+  </orders>
+  <orders comment="PurchaseOrder30" orderDate="2014-05-12T15:39:27.059+0200" previousOrder="//@orders.3">
+    <items productName="Item146" quantity="1" USPrice="0.5168022" comment="Item146" shipDate="2014-05-12T15:39:27.059+0200" partNum="10"/>
+    <items productName="Item147" quantity="1" USPrice="0.51558673" comment="Item147" shipDate="2014-05-12T15:39:27.059+0200" partNum="11"/>
+    <items productName="Item148" quantity="3" USPrice="0.74403566" comment="Item148" shipDate="2014-05-12T15:39:27.059+0200" partNum="6"/>
+    <items productName="Item149" quantity="2" USPrice="0.6857475" comment="Item149" shipDate="2014-05-12T15:39:27.059+0200" partNum="11"/>
+    <items productName="Item150" quantity="6" USPrice="0.2596023" comment="Item150" shipDate="2014-05-12T15:39:27.059+0200" partNum="4"/>
+    <billTo xsi:type="com.example.epo3:USAddress" name="Address_30" country="United States" street="Street5_29" state="Massachusetts" zip="47"/>
+    <shipTo xsi:type="com.example.epo3:USAddress" name="Address6_30" country="United States" street="Street29" state="Colorado" zip="47"/>
+  </orders>
+  <orders comment="PurchaseOrder31" orderDate="2014-05-12T15:39:27.059+0200">
+    <items productName="Item151" quantity="2" USPrice="0.18695062" comment="Item151" shipDate="2014-05-12T15:39:27.059+0200" partNum="15"/>
+    <items productName="Item152" quantity="7" USPrice="0.07742244" comment="Item152" shipDate="2014-05-12T15:39:27.059+0200" partNum="3"/>
+    <items productName="Item153" quantity="9" USPrice="0.36210692" comment="Item153" shipDate="2014-05-12T15:39:27.059+0200" partNum="15"/>
+    <items productName="Item154" quantity="5" USPrice="0.2954399" comment="Item154" shipDate="2014-05-12T15:39:27.059+0200" partNum="14"/>
+    <items productName="Item155" quantity="6" USPrice="0.50623184" comment="Item155" shipDate="2014-05-12T15:39:27.059+0200" partNum="4"/>
+    <billTo xsi:type="com.example.epo3:USAddress" name="Address_31" country="United States" street="Street6_30" state="Wisconsin" zip="7"/>
+    <shipTo xsi:type="com.example.epo3:USAddress" name="Address7_31" country="United States" street="Street30" state="Hawaii" zip="7"/>
+  </orders>
+  <orders comment="PurchaseOrder32" orderDate="2014-05-12T15:39:27.059+0200" previousOrder="//@orders.5">
+    <items productName="Item156" quantity="2" USPrice="0.51697296" comment="Item156" shipDate="2014-05-12T15:39:27.059+0200" partNum="1"/>
+    <items productName="Item157" quantity="11" USPrice="0.9341975" comment="Item157" shipDate="2014-05-12T15:39:27.059+0200" partNum="1"/>
+    <items productName="Item158" quantity="3" USPrice="0.42247683" comment="Item158" shipDate="2014-05-12T15:39:27.059+0200" partNum="10"/>
+    <items productName="Item159" quantity="2" USPrice="0.77643394" comment="Item159" shipDate="2014-05-12T15:39:27.059+0200" partNum="10"/>
+    <items productName="Item160" quantity="11" USPrice="0.3568535" comment="Item160" shipDate="2014-05-12T15:39:27.059+0200" partNum="15"/>
+    <billTo xsi:type="com.example.epo3:USAddress" name="Address_32" country="United States" street="Street6_31" state="West Virginia" zip="24"/>
+    <shipTo xsi:type="com.example.epo3:USAddress" name="Address7_32" country="United States" street="Street31" state="Vermont" zip="24"/>
+  </orders>
+  <orders comment="PurchaseOrder33" orderDate="2014-05-12T15:39:27.059+0200" status="Complete" previousOrder="//@orders.6">
+    <items productName="Item161" quantity="2" USPrice="0.11376804" comment="Item161" shipDate="2014-05-12T15:39:27.059+0200" partNum="10"/>
+    <items productName="Item162" quantity="4" USPrice="0.9222878" comment="Item162" shipDate="2014-05-12T15:39:27.059+0200" partNum="8"/>
+    <items productName="Item163" quantity="1" USPrice="0.7871445" comment="Item163" shipDate="2014-05-12T15:39:27.059+0200" partNum="0"/>
+    <items productName="Item164" quantity="2" USPrice="0.5930945" comment="Item164" shipDate="2014-05-12T15:39:27.059+0200" partNum="8"/>
+    <items productName="Item165" quantity="2" USPrice="0.4484412" comment="Item165" shipDate="2014-05-12T15:39:27.059+0200" partNum="9"/>
+    <billTo xsi:type="com.example.epo3:USAddress" name="Address_33" country="United States" street="Street6_32" state="North Carolina" zip="-40"/>
+    <shipTo xsi:type="com.example.epo3:USAddress" name="Address7_33" country="United States" street="Street32" state="Michigan" zip="-40"/>
+  </orders>
+  <orders comment="PurchaseOrder34" orderDate="2014-05-12T15:39:27.059+0200" previousOrder="//@orders.7">
+    <items productName="Item166" quantity="3" USPrice="0.13122177" comment="Item166" shipDate="2014-05-12T15:39:27.059+0200" partNum="15"/>
+    <items productName="Item167" quantity="2" USPrice="0.99964875" comment="Item167" shipDate="2014-05-12T15:39:27.059+0200" partNum="10"/>
+    <items productName="Item168" quantity="1" USPrice="0.58701307" comment="Item168" shipDate="2014-05-12T15:39:27.059+0200" partNum="16"/>
+    <items productName="Item169" quantity="2" USPrice="0.6895207" comment="Item169" shipDate="2014-05-12T15:39:27.059+0200" partNum="17"/>
+    <items productName="Item170" quantity="3" USPrice="0.77604973" comment="Item170" shipDate="2014-05-12T15:39:27.059+0200" partNum="2"/>
+    <billTo xsi:type="com.example.epo3:USAddress" name="Address_34" country="United States" street="Street6_33" state="Nevada" zip="-7"/>
+    <shipTo xsi:type="com.example.epo3:USAddress" name="Address7_34" country="United States" street="Street33" state="West Virginia" zip="-7"/>
+  </orders>
+  <orders comment="PurchaseOrder35" orderDate="2014-05-12T15:39:27.059+0200" status="BackOrder" previousOrder="//@orders.8">
+    <items productName="Item171" quantity="5" USPrice="0.6164451" comment="Item171" shipDate="2014-05-12T15:39:27.059+0200" partNum="8"/>
+    <items productName="Item172" quantity="8" USPrice="0.3632149" comment="Item172" shipDate="2014-05-12T15:39:27.059+0200" partNum="10"/>
+    <items productName="Item173" quantity="10" USPrice="0.6287227" comment="Item173" shipDate="2014-05-12T15:39:27.059+0200" partNum="9"/>
+    <items productName="Item174" quantity="7" USPrice="0.09136355" comment="Item174" shipDate="2014-05-12T15:39:27.059+0200" partNum="5"/>
+    <items productName="Item175" quantity="8" USPrice="0.32263088" comment="Item175" shipDate="2014-05-12T15:39:27.059+0200" partNum="2"/>
+    <billTo xsi:type="com.example.epo3:USAddress" name="Address_35" country="United States" street="Street6_34" state="Vermont" zip="-90"/>
+    <shipTo xsi:type="com.example.epo3:USAddress" name="Address7_35" country="United States" street="Street34" state="Connecticut" zip="-90"/>
+  </orders>
+  <orders comment="PurchaseOrder36" orderDate="2014-05-12T15:39:27.059+0200">
+    <items productName="Item176" quantity="12" USPrice="0.7883365" comment="Item176" shipDate="2014-05-12T15:39:27.059+0200" partNum="6"/>
+    <items productName="Item177" quantity="4" USPrice="0.023666978" comment="Item177" shipDate="2014-05-12T15:39:27.059+0200" partNum="2"/>
+    <items productName="Item178" quantity="6" USPrice="0.71089447" comment="Item178" shipDate="2014-05-12T15:39:27.059+0200" partNum="17"/>
+    <items productName="Item179" quantity="1" USPrice="0.7596175" comment="Item179" shipDate="2014-05-12T15:39:27.059+0200" partNum="4"/>
+    <items productName="Item180" quantity="13" USPrice="0.8345369" comment="Item180" shipDate="2014-05-12T15:39:27.059+0200" partNum="10"/>
+    <billTo xsi:type="com.example.epo3:USAddress" name="Address_36" country="United States" street="Street7_35" state="Vermont" zip="71"/>
+    <shipTo xsi:type="com.example.epo3:USAddress" name="Address8_36" country="United States" street="Street35" state="Indiana" zip="71"/>
+  </orders>
+  <orders comment="PurchaseOrder37" orderDate="2014-05-12T15:39:27.059+0200" status="BackOrder" previousOrder="//@orders.10">
+    <items productName="Item181" quantity="1" USPrice="0.18462682" comment="Item181" shipDate="2014-05-12T15:39:27.060+0200" partNum="11"/>
+    <items productName="Item182" quantity="2" USPrice="0.45687044" comment="Item182" shipDate="2014-05-12T15:39:27.060+0200" partNum="12"/>
+    <items productName="Item183" quantity="1" USPrice="0.7575603" comment="Item183" shipDate="2014-05-12T15:39:27.060+0200" partNum="11"/>
+    <items productName="Item184" quantity="1" USPrice="0.7508576" comment="Item184" shipDate="2014-05-12T15:39:27.060+0200" partNum="7"/>
+    <items productName="Item185" quantity="2" USPrice="0.32505828" comment="Item185" shipDate="2014-05-12T15:39:27.060+0200" partNum="15"/>
+    <billTo xsi:type="com.example.epo3:USAddress" name="Address_37" country="United States" street="Street7_36" state="Iowa" zip="38"/>
+    <shipTo xsi:type="com.example.epo3:USAddress" name="Address8_37" country="United States" street="Street36" state="Arizona" zip="38"/>
+  </orders>
+  <orders comment="PurchaseOrder38" orderDate="2014-05-12T15:39:27.060+0200" status="BackOrder" previousOrder="//@orders.11">
+    <items productName="Item186" quantity="2" USPrice="0.7840781" comment="Item186" shipDate="2014-05-12T15:39:27.060+0200" partNum="4"/>
+    <items productName="Item187" quantity="2" USPrice="0.12261784" comment="Item187" shipDate="2014-05-12T15:39:27.060+0200" partNum="7"/>
+    <items productName="Item188" quantity="4" USPrice="0.14824295" comment="Item188" shipDate="2014-05-12T15:39:27.060+0200" partNum="4"/>
+    <items productName="Item189" quantity="7" USPrice="0.60763705" comment="Item189" shipDate="2014-05-12T15:39:27.060+0200" partNum="17"/>
+    <items productName="Item190" quantity="9" USPrice="0.029147685" comment="Item190" shipDate="2014-05-12T15:39:27.060+0200" partNum="13"/>
+    <billTo xsi:type="com.example.epo3:USAddress" name="Address_38" country="United States" street="Street7_37" state="Maine" zip="-35"/>
+    <shipTo xsi:type="com.example.epo3:USAddress" name="Address8_38" country="United States" street="Street37" state="Wisconsin" zip="-35"/>
+  </orders>
+  <orders comment="PurchaseOrder39" orderDate="2014-05-12T15:39:27.060+0200" status="BackOrder" previousOrder="//@orders.12">
+    <items productName="Item191" quantity="3" USPrice="0.02652049" comment="Item191" shipDate="2014-05-12T15:39:27.060+0200" partNum="8"/>
+    <items productName="Item192" quantity="8" USPrice="0.6297149" comment="Item192" shipDate="2014-05-12T15:39:27.060+0200" partNum="12"/>
+    <items productName="Item193" quantity="6" USPrice="0.8041336" comment="Item193" shipDate="2014-05-12T15:39:27.060+0200" partNum="15"/>
+    <items productName="Item194" quantity="13" USPrice="0.63627535" comment="Item194" shipDate="2014-05-12T15:39:27.060+0200" partNum="14"/>
+    <items productName="Item195" quantity="4" USPrice="0.0058473945" comment="Item195" shipDate="2014-05-12T15:39:27.060+0200" partNum="15"/>
+    <billTo xsi:type="com.example.epo3:USAddress" name="Address_39" country="United States" street="Street7_38" state="New York" zip="44"/>
+    <shipTo xsi:type="com.example.epo3:USAddress" name="Address8_39" country="United States" street="Street38" state="Iowa" zip="44"/>
+  </orders>
+  <orders comment="PurchaseOrder40" orderDate="2014-05-12T15:39:27.060+0200" previousOrder="//@orders.13">
+    <items productName="Item196" quantity="15" USPrice="0.012252867" comment="Item196" shipDate="2014-05-12T15:39:27.060+0200" partNum="9"/>
+    <items productName="Item197" quantity="3" USPrice="0.96891" comment="Item197" shipDate="2014-05-12T15:39:27.060+0200" partNum="0"/>
+    <items productName="Item198" quantity="5" USPrice="0.9371169" comment="Item198" shipDate="2014-05-12T15:39:27.060+0200" partNum="17"/>
+    <items productName="Item199" quantity="1" USPrice="0.90347326" comment="Item199" shipDate="2014-05-12T15:39:27.060+0200" partNum="11"/>
+    <items productName="Item200" quantity="1" USPrice="0.9712707" comment="Item200" shipDate="2014-05-12T15:39:27.060+0200" partNum="2"/>
+    <billTo xsi:type="com.example.epo3:USAddress" name="Address_40" country="United States" street="Street7_39" state="Florida" zip="85"/>
+    <shipTo xsi:type="com.example.epo3:USAddress" name="Address8_40" country="United States" street="Street39" state="Idaho" zip="85"/>
+  </orders>
+  <orders comment="PurchaseOrder41" orderDate="2014-05-12T15:39:27.060+0200" status="Complete">
+    <items productName="Item201" quantity="1" USPrice="0.7996008" comment="Item201" shipDate="2014-05-12T15:39:27.060+0200" partNum="3"/>
+    <items productName="Item202" quantity="3" USPrice="0.76163644" comment="Item202" shipDate="2014-05-12T15:39:27.060+0200" partNum="17"/>
+    <items productName="Item203" quantity="5" USPrice="0.9628808" comment="Item203" shipDate="2014-05-12T15:39:27.060+0200" partNum="6"/>
+    <items productName="Item204" quantity="1" USPrice="0.5391765" comment="Item204" shipDate="2014-05-12T15:39:27.060+0200" partNum="0"/>
+    <items productName="Item205" quantity="2" USPrice="0.77038014" comment="Item205" shipDate="2014-05-12T15:39:27.060+0200" partNum="1"/>
+    <billTo xsi:type="com.example.epo3:USAddress" name="Address_41" country="United States" street="Street8_40" state="Delaware" zip="-87"/>
+    <shipTo xsi:type="com.example.epo3:USAddress" name="Address9_41" country="United States" street="Street40" state="North Dakota" zip="-87"/>
+  </orders>
+  <orders comment="PurchaseOrder42" orderDate="2014-05-12T15:39:27.060+0200" status="Complete" previousOrder="//@orders.15">
+    <items productName="Item206" quantity="3" USPrice="0.33315647" comment="Item206" shipDate="2014-05-12T15:39:27.060+0200" partNum="12"/>
+    <items productName="Item207" quantity="5" USPrice="0.08827633" comment="Item207" shipDate="2014-05-12T15:39:27.060+0200" partNum="1"/>
+    <items productName="Item208" quantity="4" USPrice="0.46070194" comment="Item208" shipDate="2014-05-12T15:39:27.060+0200" partNum="15"/>
+    <items productName="Item209" quantity="2" USPrice="0.44775754" comment="Item209" shipDate="2014-05-12T15:39:27.060+0200" partNum="8"/>
+    <items productName="Item210" quantity="10" USPrice="0.9163625" comment="Item210" shipDate="2014-05-12T15:39:27.060+0200" partNum="3"/>
+    <billTo xsi:type="com.example.epo3:USAddress" name="Address_42" country="United States" street="Street8_41" state="Virginia" zip="127"/>
+    <shipTo xsi:type="com.example.epo3:USAddress" name="Address9_42" country="United States" street="Street41" state="Colorado" zip="127"/>
+  </orders>
+  <orders comment="PurchaseOrder43" orderDate="2014-05-12T15:39:27.060+0200" previousOrder="//@orders.16">
+    <items productName="Item211" quantity="12" USPrice="0.8405608" comment="Item211" shipDate="2014-05-12T15:39:27.060+0200" partNum="1"/>
+    <items productName="Item212" quantity="12" USPrice="0.14262778" comment="Item212" shipDate="2014-05-12T15:39:27.060+0200" partNum="5"/>
+    <items productName="Item213" quantity="1" USPrice="0.13804734" comment="Item213" shipDate="2014-05-12T15:39:27.060+0200" partNum="5"/>
+    <items productName="Item214" quantity="5" USPrice="0.9158707" comment="Item214" shipDate="2014-05-12T15:39:27.060+0200" partNum="12"/>
+    <items productName="Item215" quantity="10" USPrice="0.9814448" comment="Item215" shipDate="2014-05-12T15:39:27.060+0200" partNum="15"/>
+    <billTo xsi:type="com.example.epo3:USAddress" name="Address_43" country="United States" street="Street8_42" state="Texas" zip="-19"/>
+    <shipTo xsi:type="com.example.epo3:USAddress" name="Address9_43" country="United States" street="Street42" state="Kansas" zip="-19"/>
+  </orders>
+  <orders comment="PurchaseOrder44" orderDate="2014-05-12T15:39:27.060+0200" status="Complete" previousOrder="//@orders.17">
+    <items productName="Item216" quantity="4" USPrice="0.57643354" comment="Item216" shipDate="2014-05-12T15:39:27.060+0200" partNum="11"/>
+    <items productName="Item217" quantity="1" USPrice="0.67626935" comment="Item217" shipDate="2014-05-12T15:39:27.060+0200" partNum="13"/>
+    <items productName="Item218" quantity="2" USPrice="0.35584658" comment="Item218" shipDate="2014-05-12T15:39:27.060+0200" partNum="17"/>
+    <items productName="Item219" quantity="1" USPrice="0.6815697" comment="Item219" shipDate="2014-05-12T15:39:27.060+0200" partNum="3"/>
+    <items productName="Item220" quantity="2" USPrice="0.61705756" comment="Item220" shipDate="2014-05-12T15:39:27.060+0200" partNum="14"/>
+    <billTo xsi:type="com.example.epo3:USAddress" name="Address_44" country="United States" street="Street8_43" state="North Dakota" zip="-30"/>
+    <shipTo xsi:type="com.example.epo3:USAddress" name="Address9_44" country="United States" street="Street43" state="Florida" zip="-30"/>
+  </orders>
+  <orders comment="PurchaseOrder45" orderDate="2014-05-12T15:39:27.060+0200" previousOrder="//@orders.18">
+    <items productName="Item221" quantity="5" USPrice="0.09435493" comment="Item221" shipDate="2014-05-12T15:39:27.060+0200" partNum="15"/>
+    <items productName="Item222" quantity="6" USPrice="0.9351815" comment="Item222" shipDate="2014-05-12T15:39:27.060+0200" partNum="1"/>
+    <items productName="Item223" quantity="4" USPrice="0.36958957" comment="Item223" shipDate="2014-05-12T15:39:27.060+0200" partNum="0"/>
+    <items productName="Item224" quantity="7" USPrice="0.008771658" comment="Item224" shipDate="2014-05-12T15:39:27.060+0200" partNum="2"/>
+    <items productName="Item225" quantity="8" USPrice="0.77725863" comment="Item225" shipDate="2014-05-12T15:39:27.060+0200" partNum="0"/>
+    <billTo xsi:type="com.example.epo3:USAddress" name="Address_45" country="United States" street="Street8_44" state="New Mexico" zip="-48"/>
+    <shipTo xsi:type="com.example.epo3:USAddress" name="Address9_45" country="United States" street="Street44" state="Washington" zip="-48"/>
+  </orders>
+  <orders comment="PurchaseOrder46" orderDate="2014-05-12T15:39:27.060+0200" status="BackOrder">
+    <items productName="Item226" quantity="8" USPrice="0.20303297" comment="Item226" shipDate="2014-05-12T15:39:27.060+0200" partNum="4"/>
+    <items productName="Item227" quantity="3" USPrice="0.969989" comment="Item227" shipDate="2014-05-12T15:39:27.060+0200" partNum="12"/>
+    <items productName="Item228" quantity="3" USPrice="0.44897515" comment="Item228" shipDate="2014-05-12T15:39:27.060+0200" partNum="0"/>
+    <items productName="Item229" quantity="2" USPrice="0.654755" comment="Item229" shipDate="2014-05-12T15:39:27.060+0200" partNum="16"/>
+    <items productName="Item230" quantity="9" USPrice="0.56817234" comment="Item230" shipDate="2014-05-12T15:39:27.060+0200" partNum="17"/>
+    <billTo xsi:type="com.example.epo3:USAddress" name="Address_46" country="United States" street="Street9_45" state="Mississippi" zip="-54"/>
+    <shipTo xsi:type="com.example.epo3:USAddress" name="Address10_46" country="United States" street="Street45" state="District of Columbia" zip="-54"/>
+  </orders>
+  <orders comment="PurchaseOrder47" orderDate="2014-05-12T15:39:27.060+0200" status="Complete" previousOrder="//@orders.20">
+    <items productName="Item231" quantity="4" USPrice="0.9431005" comment="Item231" shipDate="2014-05-12T15:39:27.060+0200" partNum="0"/>
+    <items productName="Item232" quantity="1" USPrice="0.75170714" comment="Item232" shipDate="2014-05-12T15:39:27.060+0200" partNum="8"/>
+    <items productName="Item233" quantity="4" USPrice="0.7625525" comment="Item233" shipDate="2014-05-12T15:39:27.060+0200" partNum="3"/>
+    <items productName="Item234" quantity="18" USPrice="0.58986396" comment="Item234" shipDate="2014-05-12T15:39:27.060+0200" partNum="14"/>
+    <items productName="Item235" quantity="1" USPrice="0.46101713" comment="Item235" shipDate="2014-05-12T15:39:27.060+0200" partNum="12"/>
+    <billTo xsi:type="com.example.epo3:USAddress" name="Address_47" country="United States" street="Street9_46" state="North Carolina" zip="107"/>
+    <shipTo xsi:type="com.example.epo3:USAddress" name="Address10_47" country="United States" street="Street46" state="Alabama" zip="107"/>
+  </orders>
+  <orders comment="PurchaseOrder48" orderDate="2014-05-12T15:39:27.060+0200" status="Complete" previousOrder="//@orders.21">
+    <items productName="Item236" quantity="2" USPrice="0.4292531" comment="Item236" shipDate="2014-05-12T15:39:27.060+0200" partNum="11"/>
+    <items productName="Item237" quantity="2" USPrice="0.20630616" comment="Item237" shipDate="2014-05-12T15:39:27.060+0200" partNum="3"/>
+    <items productName="Item238" quantity="1" USPrice="0.72809964" comment="Item238" shipDate="2014-05-12T15:39:27.060+0200" partNum="9"/>
+    <items productName="Item239" quantity="3" USPrice="0.5158539" comment="Item239" shipDate="2014-05-12T15:39:27.060+0200" partNum="12"/>
+    <items productName="Item240" quantity="5" USPrice="0.88260627" comment="Item240" shipDate="2014-05-12T15:39:27.060+0200" partNum="16"/>
+    <billTo xsi:type="com.example.epo3:USAddress" name="Address_48" country="United States" street="Street9_47" state="North Dakota" zip="78"/>
+    <shipTo xsi:type="com.example.epo3:USAddress" name="Address10_48" country="United States" street="Street47" state="Maine" zip="78"/>
+  </orders>
+  <orders comment="PurchaseOrder49" orderDate="2014-05-12T15:39:27.060+0200" status="Complete" previousOrder="//@orders.22">
+    <items productName="Item241" quantity="3" USPrice="0.93226016" comment="Item241" shipDate="2014-05-12T15:39:27.060+0200" partNum="14"/>
+    <items productName="Item242" quantity="2" USPrice="0.16151816" comment="Item242" shipDate="2014-05-12T15:39:27.060+0200" partNum="0"/>
+    <items productName="Item243" quantity="8" USPrice="0.6804979" comment="Item243" shipDate="2014-05-12T15:39:27.060+0200" partNum="16"/>
+    <items productName="Item244" quantity="10" USPrice="0.029781997" comment="Item244" shipDate="2014-05-12T15:39:27.060+0200" partNum="7"/>
+    <items productName="Item245" quantity="8" USPrice="0.3991714" comment="Item245" shipDate="2014-05-12T15:39:27.060+0200" partNum="11"/>
+    <billTo xsi:type="com.example.epo3:USAddress" name="Address_49" country="United States" street="Street9_48" state="Hawaii" zip="9"/>
+    <shipTo xsi:type="com.example.epo3:USAddress" name="Address10_49" country="United States" street="Street48" state="Arizona" zip="9"/>
+  </orders>
+  <orders comment="PurchaseOrder50" orderDate="2014-05-12T15:39:27.060+0200" previousOrder="//@orders.23">
+    <items productName="Item246" quantity="11" USPrice="0.5929158" comment="Item246" shipDate="2014-05-12T15:39:27.060+0200" partNum="7"/>
+    <items productName="Item247" quantity="5" USPrice="0.32894993" comment="Item247" shipDate="2014-05-12T15:39:27.060+0200" partNum="7"/>
+    <items productName="Item248" quantity="13" USPrice="0.9738263" comment="Item248" shipDate="2014-05-12T15:39:27.060+0200" partNum="17"/>
+    <items productName="Item249" quantity="13" USPrice="0.3489583" comment="Item249" shipDate="2014-05-12T15:39:27.060+0200" partNum="11"/>
+    <items productName="Item250" quantity="2" USPrice="0.31862563" comment="Item250" shipDate="2014-05-12T15:39:27.060+0200" partNum="5"/>
+    <billTo xsi:type="com.example.epo3:USAddress" name="Address_50" country="United States" street="Street9_49" state="Maryland" zip="70"/>
+    <shipTo xsi:type="com.example.epo3:USAddress" name="Address10_50" country="United States" street="Street49" state="Virginia" zip="70"/>
+  </orders>
+</com.example.epo3:Supplier>
